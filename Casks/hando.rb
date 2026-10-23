@@ -13,7 +13,7 @@ cask "hando" do
   binary "#{appdir}/Hando.app/Contents/MacOS/Hando", target: "hando"
 
   caveats <<~EOS
-    Apple 공증이 없는 앱이라 처음 열 때 막힐 수 있음:
+    Apple 공증이 없는 앱이라 처음 열 때 막힐 수 있음 (막혀 있는 동안은 hando 명령도 조용히 안 됨):
       시스템 설정 > 개인정보 보호 및 보안 > "그래도 열기"
     또는
       xattr -dr com.apple.quarantine /Applications/Hando.app
