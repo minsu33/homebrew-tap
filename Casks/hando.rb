@@ -1,6 +1,6 @@
 cask "hando" do
-  version "1.5.3"
-  sha256 "9785f4d77cb400f073a3e22630ebc8a4ac0e664e93a44a377d09cc3927cee0f5"
+  version "1.6.0"
+  sha256 "17f70e846afb250a974242a7ac4b5df221387a58e87da7acbec12ece1d2d8657"
 
   url "https://github.com/minsu33/Hando/releases/download/v#{version}/Hando-#{version}.zip"
   name "Hando"
